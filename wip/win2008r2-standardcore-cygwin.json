@@ -88,6 +88,7 @@
       "execute_command": "{{.Vars}} cmd /c $(/bin/cygpath -m '{{.Path}}')",
       "scripts": [
         "script/vagrant.bat",
+        "script/cmtool.bat",
         "script/vmtool.bat",
         "script/clean.bat",
         "script/ultradefrag.bat",

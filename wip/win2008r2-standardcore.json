@@ -86,6 +86,7 @@
       "execute_command": "{{.Vars}} cmd /c C:/Windows/Temp/script.bat",
       "scripts": [
         "script/vagrant.bat",
+        "script/cmtool.bat",
         "script/vmtool.bat",
         "script/clean.bat",
         "script/ultradefrag.bat",
